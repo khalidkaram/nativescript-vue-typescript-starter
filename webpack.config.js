@@ -163,14 +163,14 @@ module.exports = env => {
                     test: /\.css$/,
                     use: [
                         MiniCssExtractPlugin.loader,
-                        { loader: "css-loader", options: { minimize: false, url: false } },
+                        { loader: "css-loader" },
                     ],
                 },
                 {
                     test: /\.scss$/,
                     use: [
                         MiniCssExtractPlugin.loader,
-                        { loader: "css-loader", options: { minimize: false, url: false } },
+                        { loader: "css-loader" },
                         "sass-loader",
                     ],
                 },
