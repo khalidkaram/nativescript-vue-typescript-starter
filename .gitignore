@@ -1,12 +1,1 @@
-# JetBrains project files
 .idea
-
-# VS Code
-.vscode
-
-# NPM
-node_modules
-
-# NativeScript application
-hooks
-platforms
