@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-vue-typescript",
+  "name": "{{ name }}",
   "description": "{{ description }}",
   "author": "{{ author }}",
   "nativescript": {
